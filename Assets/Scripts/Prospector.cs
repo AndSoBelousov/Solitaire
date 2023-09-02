@@ -19,4 +19,10 @@ public class Prospector : MonoBehaviour
     {
         _singleton= this;
     }
+
+    private void Start()
+    {
+        deck = GetComponent<Deck>();
+        deck.InitDeck(deckXML.text);
+    }
 }

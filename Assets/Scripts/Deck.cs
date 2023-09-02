@@ -8,7 +8,7 @@ public class Deck : MonoBehaviour
 {
     [Header("Set Dynamically")]
     public PT_XMLReader xmlr;
-    public XmlReader xmlreader;
+    
 
     //InitDeck вызываетс€ экземпл€ром Prospector, когда будет готов 
     public void InitDeck(string deckXMLText)
